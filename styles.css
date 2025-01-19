@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-    height: 1032px;
+    height: 100%;
     display: flex;
     flex-direction: row;
 }
