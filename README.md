@@ -9,10 +9,6 @@ Welcome to **OverSimplified Gallery**, a minimalist gallery project built entire
 - **Lightweight**: No JavaScript, just clean HTML and CSS.
 - **Customizable**: Easy to adapt the styles to suit your needs.
 
-## Demo
-
-Check out a live preview of the gallery by opening the `index.html` file in any modern browser.
-
 ## Usage
 
 1. Clone or download the repository.
@@ -30,17 +26,6 @@ cd oversimplified-gallery
 open index.html
 ```
 
-## File Structure
-
-```
-/oversimplified-gallery
-├── images/                     # Directory for your images
-├── styles.css                  # Main stylesheet
-├── index.html                  # Main HTML file
-├── README.md                   # Project documentation
-└── electrolize-regular.ttf     # Main font
-```
-
 ## Customization
 
 - Update the `index.html` file to include your desired images.
@@ -52,7 +37,7 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 
 ## License
 
-This project is licensed under the [MIT License](./LICENSE). Please ensure the LICENSE file is present in the repository to avoid broken links or confusion.
+This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
