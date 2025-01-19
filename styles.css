@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Electrolize";
+    src: url("./assets/fonts/Electrolize-Regular.ttf");
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: "Electrolize";
+    background-color: rgb(25, 25, 25);
+}
+
+.container {
+    height: 1032px;
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    flex: 1;
+    height: 100%;
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    transition: flex 0.8s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.item:hover {
+    flex: 7;
+}
+
+.item p {
+    margin: 16px 32px 16px 32px;
+    padding: 4px;
+    display: none;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 600;
+    position: absolute;
+    filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.5));
+}
+
+.item:hover p {
+    display: block;
+    animation: fade-in 1.5s ease;
+}
+
+.item-1 {
+    background-image: url("./assets/imgs/001.jpg");
+}
+
+.item-2 {
+    background-image: url("./assets/imgs/002.jpg");
+}
+
+.item-3 {
+    background-image: url("./assets/imgs/003.jpg");
+}
+
+.item-4 {
+    background-image: url("./assets/imgs/004.jpg");
+}
+
+.item-5 {
+    background-image: url("./assets/imgs/005.jpg");
+}
