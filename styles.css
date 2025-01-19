@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Electrolize";
-    src: url("./assets/fonts/Electrolize-Regular.ttf");
+    src: url("./electrolize-regular.ttf");
 }
 
 @keyframes fade-in {
@@ -57,21 +57,21 @@ body {
 }
 
 .item-1 {
-    background-image: url("./assets/imgs/001.jpg");
+    background-image: url("./images/001.jpg");
 }
 
 .item-2 {
-    background-image: url("./assets/imgs/002.jpg");
+    background-image: url("./images/002.jpg");
 }
 
 .item-3 {
-    background-image: url("./assets/imgs/003.jpg");
+    background-image: url("./images/003.jpg");
 }
 
 .item-4 {
-    background-image: url("./assets/imgs/004.jpg");
+    background-image: url("./images/004.jpg");
 }
 
 .item-5 {
-    background-image: url("./assets/imgs/005.jpg");
+    background-image: url("./images/005.jpg");
 }
